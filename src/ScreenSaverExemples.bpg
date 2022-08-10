@@ -1,0 +1,36 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = ssExemple_1.exe ssExemple_2.exe ssExemple_3.exe ssExemple_4.exe \
+  ssExemple_5.exe ssExemple_6.exe
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+ssExemple_1.exe: ssExemple_1.dpr
+  $(DCC)
+
+ssExemple_2.exe: ssExemple_2.dpr
+  $(DCC)
+
+ssExemple_3.exe: ssExemple_3.dpr
+  $(DCC)
+
+ssExemple_4.exe: ssExemple_4.dpr
+  $(DCC)
+
+ssExemple_5.exe: ssExemple_5.dpr
+  $(DCC)
+
+ssExemple_6.exe: ssExemple_6.dpr
+  $(DCC)
+
+
