@@ -1,10 +1,12 @@
 # Economiseur d'écran sous Windows 32 en Delphi 4 (Magazine Informatique Et Développement n°1)
 
-Sources liés à l'article "Economiseur d'écran sous Windows 32 en Delphi 4" publié dans le magazine Informatique Et Développement n°1 en mai 1999.
+Sources liés à l'article "Economiseur d'écran sous Windows 32 en Delphi 4" publié dans le magazine *Informatique Et Développement* n°1 en mai 1999.
 
 Ces projets ont été développés sous Delphi 4.
 
 Pour en savoir plus rendez-vous sur [les publications](https://developpeur-pascal.fr/publications.html) dans le [blog Développeur Pascal](https://developpeur-pascal.fr/) où j'ai repris [l'article d'origine](https://developpeur-pascal.fr/economiseur-d-ecran-sous-windows-32-en-delphi-4-dans-le-magazine-informatique-et-developpement-1-mai-1999.html).
+
+Le [projet suivant](https://github.com/DeveloppeurPascal/informatiqueetdeveloppement-03) améliore les fonctionnalités de l'économiseur d'écran proposé et a fait l'objet d'[une suite à cet article dans le numéro 3 du magazine *Informatique et Développement*](https://developpeur-pascal.fr/programmer-un-economiseur-d-ecran-dans-le-magazine-informatique-et-developpement-3-juillet-1999.html).
 
 ## Codes sources dans le dossier /src
 
